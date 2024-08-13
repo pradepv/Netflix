@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+.main{
+    background-image: url("https://wallpapercat.com/w/full/c/8/7/116411-3840x2160-desktop-4k-netflix-wallpaper-photo.jpg");
+    height:50rem;
+    background-size: max(1440px,100vw);
+    position:relative;
+    background-repeat: no-repeat;
+    background-position:center center;
+
+}
+.main .box{
+    height:50rem;
+    opacity:0.69;
+    background-color: ;
+    width:100%;
+    top:0;
+    position:absolute;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:75vw;
+    margin:auto;
+    height:62px;
+    padding-top:15px;
+}
+nav img{
+    color:red;
+    width: 150px;
+    position: relative;
+    z-index:10;
+
+}
+nav button,nav select{
+    position:relative;
+    z-index: index 10;
+
+}
+.main nav div{
+    display: flex;
+    justify-content:space-around;
+    min-width:20vw;
+}
+.hero{
+    font-family:"Martel Sans",sans-serif;
+    height:calc(100% - 7px);
+    display:flex;
+    align-items:center;
+    color:#fff;
+    flex-direction:column;
+    justify-content: center;
+}
+
+
+
+
+
